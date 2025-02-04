@@ -1,0 +1,38 @@
+h1{ color: rgb(174, 205, 0);
+    text-align: center;
+    padding: 20px;
+}
+ul{
+    background-color: darkcyan;
+}
+.vertical-menu {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    background: linear-gradient(to bottom, #4CAF50, #f4f4f4); /* Vertical gradient */
+  }
+  .header{
+    position:fixed;
+    width: 100%;
+    padding: 10px 20px;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    z-index: 100;
+}  
+.navbar a{
+    font: size 1.7rem;
+    color: var(--text-color);
+    margin-left: 4em;
+    transition: .4s;
+}
+.navbar a:hover
+.navbar a.active{    
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
